@@ -23,13 +23,13 @@ var label = Ti.UI.createLabel({
 	color: '#fff',
 	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
 	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_TOP,
-	text: 'hollo, world'
+	text: 'hello, world'
 });
 
 var TiBubble = require('be.k0suke.tibubble');
 var bubble = TiBubble.createView({
 	top: 0,
-	left: 74,
+	left: 10,
 	width: Ti.UI.SIZE, // just fit from contained label
 	height: Ti.UI.SIZE, // just fit from contained label
 	bubbleColor: '#dfdee5', // default: #fff
