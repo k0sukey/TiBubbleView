@@ -6,11 +6,11 @@ Inspired by [BubbleDraw](https://github.com/miyakeryo/objc-ryo/tree/master/Bubbl
 
 ## Install
 
-[Compiled module download](blob/master/be.k0suke.tibubble-iphone-0.1.zip)
+[Compiled module download](be.k0suke.tibubble-iphone-0.1.zip)
 
 ## Usage
 
-You can see screenshot's example at [Resources/app.js](blob/master/Resources/app.js).
+You can see screenshot's example at [Resources/app.js](Resources/app.js).
 
 ```javascript
 var label = Ti.UI.createLabel({
