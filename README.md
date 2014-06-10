@@ -10,7 +10,7 @@ Inspired by [BubbleDraw](https://github.com/miyakeryo/objc-ryo/tree/master/Bubbl
 
 ## Usage
 
-You can see screenshot's example at [Resources/app.js](Resources/app.js).
+You can see screenshot's example at [example/app.js](example/app.js).
 
 ```javascript
 var label = Ti.UI.createLabel({
