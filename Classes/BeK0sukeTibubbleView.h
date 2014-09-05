@@ -10,6 +10,7 @@
     CGColorRef bubbleColor;
     CGFloat bubbleRadius;
     int bubbleBeak;
+    int bubbleBeakVertical;
 }
 
 @end

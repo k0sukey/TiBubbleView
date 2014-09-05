@@ -15,6 +15,7 @@
     
     bubbleRadius = 20.0f;
     bubbleBeak = 0;
+    bubbleBeakVertical = 0;
     
     return self;
 }
@@ -38,6 +39,12 @@
     {
         CGContextTranslateCTM(context, [self bounds].size.width, 0);
         CGContextScaleCTM(context, -1.0, 1.0);
+    }
+    
+    if (bubbleBeakVertical == 1)
+    {
+        CGContextTranslateCTM(context, 0 ,[self bounds].size.height);
+        CGContextScaleCTM(context, 1.0, -1.0);
     }
     
     CGContextBubblePath(context, [self bounds], bubbleRadius);
@@ -72,6 +79,11 @@
 -(void)setBubbleBeak_:(id)args
 {
     bubbleBeak = [TiUtils intValue:args def:0];
+}
+
+-(void)setBubbleBeakVertical_:(id)args
+{
+    bubbleBeakVertical = [TiUtils intValue:args def:0];
 }
 
 /*
