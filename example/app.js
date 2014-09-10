@@ -89,7 +89,8 @@ for (var i = 0; i < messages.length; i++) {
 			height: Ti.UI.SIZE,
 			bubbleColor: '#dfdee5',
 			bubbleRadius: 20,
-			bubbleBeak: TiBubble.BUBBLE_BEAK_LEFT
+			bubbleBeak: TiBubble.BUBBLE_BEAK_LEFT,
+			bubbleBeakVertical: TiBubble.BUBBLE_BEAK_UPPER
 		});
 	}
 	bubble.add(label);

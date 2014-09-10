@@ -35,6 +35,7 @@ var bubble = TiBubble.createView({
 	bubbleColor: '#dfdee5', // default: #fff
 	bubbleRadius: 20, // default: 20
 	bubbleBeak: TiBubble.BUBBLE_BEAK_LEFT // default BUBBLE_BEAK_LEFT
+	bubbleBeakVertical: TiBubble.BUBBLE_BEAK_UPPER // default BUBBLE_BEAK_LOWER
 });
 bubble.add(label);
 ```
@@ -44,6 +45,7 @@ bubble.add(label);
 * bubbleColor
 * bubbleRadius
 * bubbleBeak / BUBBLE_BEAK_LEFT or BUBBLE_BEAK_RIGHT
+* bubbleBeakVertical / BUBBLE_BEAK_LOWER or BUBBLE_BEAK_UPPER
 
 ## License
 
