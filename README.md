@@ -4,6 +4,10 @@ Inspired by [BubbleDraw](https://github.com/miyakeryo/objc-ryo/tree/master/Bubbl
 
 ![screenshot.png](screenshot.png)
 
+## For Android
+
+[TiBubbleViewForAndroid](https://github.com/tdtsh/TiBubbleViewForAndroid)
+
 ## Install
 
 [Compiled module download](be.k0suke.tibubble-iphone-0.1.zip)
