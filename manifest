@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1
+version: 0.2
 apiversion: 2
 description: My module
 author: Your Name
@@ -15,4 +15,5 @@ name: TiBubble
 moduleid: be.k0suke.tibubble
 guid: 0c78c1e7-461e-4d99-8b5f-5e735c7ef188
 platform: iphone
-minsdk: 3.2.3.GA
+minsdk: 3.4.0.GA
+architectures: armv7 i386 x86_64 arm64
